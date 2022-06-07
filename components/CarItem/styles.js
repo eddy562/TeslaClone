@@ -23,6 +23,10 @@ const stlyes= StyleSheet.create ({
         fontWeight : '500',
       
       },
+
+      subtitleCTA:{
+        textDecorationLine:'underline',
+      },
     
       subtitle:{
         fontSize: 16,
@@ -37,6 +41,12 @@ const stlyes= StyleSheet.create ({
         position: 'absolute'
     
       },
+      buttonsContainer:{
+        position:'absolute',
+        bottom: 50,
+        width: "100%",
+
+      }
 });
 
 export default stlyes;
